@@ -21,7 +21,7 @@ import model.Login;
  */
 public class LoginDAO {
     
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("memorando");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("Memorando");
         
         EntityManager em = emf.createEntityManager();
     

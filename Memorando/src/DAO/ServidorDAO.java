@@ -21,7 +21,7 @@ import model.Servidor;
  */
 public class ServidorDAO {
     
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("memorando");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("Memorando");
     
     EntityManager em = emf.createEntityManager();
     

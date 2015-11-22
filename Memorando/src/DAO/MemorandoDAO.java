@@ -21,7 +21,7 @@ import model.Memorando;
  */
 public class MemorandoDAO {
     
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("memorando");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("Memorando");
     
     EntityManager em = emf.createEntityManager();
     

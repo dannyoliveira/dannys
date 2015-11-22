@@ -21,7 +21,7 @@ import model.Setor;
  */
 public class SetorDAO {
     
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("memorando");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("Memorando");
     
     EntityManager em = emf.createEntityManager();
     
